@@ -23,6 +23,7 @@ export default defineConfig({
   ],
   server: {
     open: true,
+    host: 'localhost'
   },
   css: {
     preprocessorOptions: {
