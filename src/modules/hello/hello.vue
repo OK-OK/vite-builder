@@ -2,25 +2,25 @@
  * @Author: JL Guan
  * @Date: 2022-04-13 09:14:37
  * @description: file description
- * @LastEditTime: 2022-04-13 10:06:04
- * @FilePath: \mine\vite\src\modules\hello\hello.vue
+ * @LastEditTime: 2022-04-13 14:17:29
+ * @FilePath: \mine\vite-builder\src\modules\hello\hello.vue
 -->
 <template>
   <div>{{ hello }}</div>
   <el-button>Default</el-button>
-    <el-button type="primary">Primary</el-button>
-    <el-button type="success">Success</el-button>
-    <el-button type="info">Info</el-button>
-    <el-button type="warning">Warning</el-button>
-    <el-button type="danger">Danger</el-button>
-    <el-button>中文</el-button>
+  <el-button type="primary">Primary</el-button>
+  <el-button type="success">Success</el-button>
+  <el-button type="info">Info</el-button>
+  <el-button type="warning">Warning</el-button>
+  <el-button type="danger">Danger</el-button>
+  <el-button>中文</el-button>
 </template>
 
 <script lang="ts" setup>
 import { ref } from "vue";
 import { ElButton } from 'element-plus'
 
-const hello = ref("hello");
+const hello = ref('hello')
 </script>
 
 <style lang="scss"></style>
