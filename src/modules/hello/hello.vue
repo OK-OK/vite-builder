@@ -2,8 +2,8 @@
  * @Author: JL Guan
  * @Date: 2022-04-13 09:14:37
  * @description: file description
- * @LastEditTime: 2022-04-13 14:17:29
- * @FilePath: \mine\vite-builder\src\modules\hello\hello.vue
+ * @LastEditTime: 2022-06-07 15:14:07
+ * @FilePath: \vite-builder\src\modules\hello\hello.vue
 -->
 <template>
   <div>{{ hello }}</div>
@@ -18,7 +18,6 @@
 
 <script lang="ts" setup>
 import { ref } from "vue";
-import { ElButton } from 'element-plus'
 
 const hello = ref('hello')
 </script>

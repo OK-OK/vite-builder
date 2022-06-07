@@ -7,4 +7,3 @@ const app = createApp(App)
 setupRouter(app)
 
 app.mount('#app')
-console.log(321421)
