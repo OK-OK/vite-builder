@@ -2,8 +2,8 @@
  * @Author: JL Guan
  * @Date: 2022-06-13 09:10:25
  * @description: file description
- * @LastEditTime: 2022-06-14 09:10:49
- * @FilePath: \leader-overview\src\utils\axios.ts
+ * @LastEditTime: 2022-06-14 09:43:40
+ * @FilePath: \vite-builder\src\utils\axios.ts
  */
 import axios from 'axios'
 import qs from 'qs'
@@ -17,7 +17,7 @@ interface Response {
 }
 
 const instance = axios.create({
-  baseURL: 'http://192.168.9.204/',
+  baseURL: '',
   headers: {
     Authorization: 'token',
     timeout: 10000,
