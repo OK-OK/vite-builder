@@ -11,7 +11,9 @@
     "lint-fix": "eslint src/**/*.* --fix"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "element-plus": "^2.1.9",
+    "qs": "^6.10.5",
     "vue": "^3.2.25",
     "vue-router": "^4.0.14",
     "vuex": "^4.0.2"

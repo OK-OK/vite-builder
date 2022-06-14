@@ -29,7 +29,7 @@ export default defineConfig({
     },
   },
   resolve: {
-    extensions: ['.scss', '.vue', '.ts'],
+    extensions: ['.scss', '.vue', '.ts', '.js'],
     alias: {
       '@': path.resolve(__dirname, 'src'),
     },
